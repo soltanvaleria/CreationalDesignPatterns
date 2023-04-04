@@ -1,6 +1,6 @@
 package org.factorymethod;
 
-public class DogFactory implements AnimalFactory {
+public class DogFactory extends AnimalFactory {
     @Override
     public Animal createAnimal() {
 

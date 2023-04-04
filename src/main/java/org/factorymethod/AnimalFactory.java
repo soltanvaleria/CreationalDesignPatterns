@@ -1,6 +1,6 @@
 package org.factorymethod;
 
-public interface AnimalFactory {
- Animal createAnimal();
+public abstract class AnimalFactory {
+ abstract Animal createAnimal();
 
 }
